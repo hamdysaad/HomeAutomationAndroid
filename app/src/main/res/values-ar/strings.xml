@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="usage">Usage</string>
+    <string name="setting">Setting</string>
+    <string name="config">Configuration</string>
+    <string name="bill">Bill</string>
+    <string name="devices">Devices</string>
+</resources>

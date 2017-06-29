@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.gp.smarthome.hamdy.smarthomegp.Fragments.NotificationsFragment"
+    >
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/loading_avl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:indicatorName="BallPulseSyncIndicator"
+        app:indicatorColor="@color/colorPrimary"
+        android:padding="@dimen/_10sdp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+
+        />
+
+    <TextView
+        android:id="@+id/messageTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No Notifications found"
+        android:visibility="gone"
+        android:textStyle="bold"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

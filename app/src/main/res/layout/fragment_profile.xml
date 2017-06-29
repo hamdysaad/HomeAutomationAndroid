@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_20sdp"
+    tools:context="com.gp.smarthome.hamdy.smarthomegp.Fragments.ProfileFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:src="@drawable/avatar"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circleImageView"
+        android:padding="@dimen/_20sdp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/fragmentProfile_userNameLabel_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Name"
+            />
+
+        <TextView
+            android:id="@+id/fragmentProfile_userName_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Hamdy Saad"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/fragmentProfile_userEmailLabel_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Email"
+            />
+
+        <TextView
+            android:id="@+id/fragmentProfile_userEmail_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="hamdy@gmail.com"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

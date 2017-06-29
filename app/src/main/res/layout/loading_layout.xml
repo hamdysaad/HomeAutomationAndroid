@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/fragmentHome_loadingContainerRL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha=".8"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/fragmentHome_loading_avl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:indicatorName="BallPulseSyncIndicator"
+        app:indicatorColor="@color/colorPrimary"
+        android:padding="@dimen/_10sdp"
+
+        />
+
+</RelativeLayout>

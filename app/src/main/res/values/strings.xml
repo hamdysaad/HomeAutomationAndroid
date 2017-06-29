@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">SmartHomeGP</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="usage">Usage</string>
+    <string name="setting">Setting</string>
+    <string name="config">Configuration</string>
+    <string name="bill">Bill</string>
+    <string name="devices">Devices</string>
+    <string name="action_settings">action setrting</string>
+    <string name="title_activity_main">Home</string>
+    <string name="navigation_drawer_open">Drawer open</string>
+    <string name="navigation_drawer_close">Drawer close</string>
+    <string name="groups">Groups</string>
+    <string name="notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="device_desc">Device Description</string>
+    <string name="device_name">Device Name</string>
+    <string name="add">ADD</string>
+    <string name="group_name">Group Name</string>
+    <string name="group_desc">Group Description</string>
+    <string name="edit">EDIT</string>
+    <string name="edit_failed">Edit failed</string>
+    <string name="edit_successfully">Item Edited successfully</string>
+    <string name="delete_failed">Delete item failed</string>
+    <string name="delete_successfull">Item Deleted Successfully</string>
+    <string name="device_added_successfully">Device Added Successfully</string>
+    <string name="select_user_to_assign_device">Select user to assign device</string>
+    <string name="select_group_to_assign_device">Select group to assign device</string>
+    <string name="select_category">Select Category</string>
+    <string name="assign">Assign</string>
+    <string name="device_assigned_successfully">Device Assigned Successfully</string>
+    <string name="assign_device_failed">Assign Device to User Failed</string>
+    <string name="group_added_successfully">Group Add Successfully</string>
+
+    <string-array name="select_category">
+        <item>SELECT CATEGORY</item>
+        <item>TV</item>
+        <item>FAN</item>
+        <item>FRIDGE</item>
+        <item>BuLB</item>
+    </string-array>
+
+    <string-array name="selectCategoryValues">
+        <item>tv</item>
+        <item>fan</item>
+        <item>fridge</item>
+        <item>bulb</item>
+    </string-array>
+
+</resources>

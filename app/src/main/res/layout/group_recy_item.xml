@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        android:layout_margin="@dimen/_5sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/groupRecyItem_groupName_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="group1"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true" />
+                <ImageView
+                    android:id="@+id/groupRecyItem_adminPopupMenu_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_dots"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="@dimen/_5sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Device Count : "
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/groupRecyItem_deviceCount_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/groupRecyItem_groupDesc_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="djsfh ksj fhk jhsd kjhf ks jd h fk s j h dfkjs hdkf js dfsf sdf sdf sdf sdf hkdfhskdjfhskdhfksjdhkfsjhdkfjhksdjhdfkshkj"
+               android:textSize="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:lines="2"
+                />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

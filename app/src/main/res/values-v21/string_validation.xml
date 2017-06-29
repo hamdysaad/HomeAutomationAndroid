@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="validation_min">The number of characters must be greater than or equal</string>
+    <string name="validation_email">Email must be valid email address</string>
+    <string name="validation_max">The number of characters must be less than or equal to</string>
+    <string name="validation_mobile">Mobile must be valid mobile number</string>
+    <string name="validation_required">This field is required</string>
+    <string name="validation_confirm_password">Confirm password not match</string>
+</resources>
